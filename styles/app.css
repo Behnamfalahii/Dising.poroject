@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/*=>10px*/ 
+}
+
+* , *:after , *:before {
+box-sizing: inherit;
+}
+
+body {
+    line-height:1.6;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+}
+
+
+/*
+
+__Reset style__
+
+
+*/
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*
+
+__Helper class__
+
+
+
+*/
+
+/*
+
+
+
+__App style__
+
+
+
+*/
+
