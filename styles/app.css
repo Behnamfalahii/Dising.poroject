@@ -134,6 +134,7 @@ __App style__
     background-color: var(--orenge);
     border-radius: 2rem;
     position: relative;
+    transition: all 150ms ease-in-out ;
 }
 
 .nav__btn-Line::before,
@@ -155,5 +156,15 @@ __App style__
 }
 .nav__btn-Line::after {
    bottom: -0.8rem;
+}
+
+.nav__btn--open .nav__btn-Line {
+    background-color: transparent;
+}
+.nav__btn--open .nav__btn-Line::before {
+    transform:translateY(8px) rotate(45deg) ;
+}
+.nav__btn--open .nav__btn-Line::after {
+    transform:translateY(-8px) rotate(-45deg) ;
 }
 
